@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    text-align: center;
+    color: orangered;
+}
+
+.homeItem{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 60px;
+}
+
+.homeScore{
+    display: flex;
+}
+
+#Hs{
+    padding: 3px 10px;
+    margin: 10px 5px;
+    border: 2px solid black;
+}
+
+.guestItem{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 60px;
+}
+
+.guestScore{
+    display: flex;
+}
+    
+#Gs{
+    padding: 3px 10px;
+    margin: 10px 5px;
+    border: 2px solid black;
+}
